@@ -13,7 +13,7 @@ public class Util {
     private static final String LOGIN = "postgres";
     private static final String PASSWORD = "postgres";
     private static Connection connection;
-    private static SessionFactory sessionFactory;
+    public static SessionFactory sessionFactory;
 
     static {
         try {
